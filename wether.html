@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether-app</title>
+
+    <link rel="stylesheet" href="wether.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <input type="text" id="input" name="name" placeholder="Enter you city" required>
+           <button class="btn" id="btn" onclick="checkweather()"> <i class="fa fa-search"></i> </button>
+        </div>
+        <div class="main-box" id="weather">
+        <div class="box-2">
+`           <img id="img" src="https://static.vecteezy.com/system/resources/previews/012/066/505/original/sunny-and-rainy-day-weather-forecast-icon-meteorological-sign-3d-render-png.png" alt="">
+            <p class="p1">22 &deg;C</p>
+            <p class="p2">New york</p>
+        </div>
+        <div class="details">
+           <div class="col">
+            <img src="/humidity.png" alt="">
+            <p id="sun">50%</p>
+            <p id="h22">sunset</p>
+           </div>
+           <div class="col-1">
+            <img src="/wind-speed-1.png" alt="">
+            <p id="speed">15 km/h</p>
+            <p id="km_1">Wind speed</p>
+           </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="wether.js">
+    </script>
+</body>
+</html>
